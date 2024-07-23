@@ -16,9 +16,9 @@ int main()
    unsigned long long int d2;
 
 
-  static int s_i;
-  register int r_i = 100;
-  extern float e_f ;
+  static int e1;
+  register int e2 = 100;
+  extern float e3 ;
   
    cout<<endl<<sizeof(a);
    cout<<endl<<sizeof(a1);
@@ -30,8 +30,8 @@ int main()
    cout<<endl<<sizeof(d);
    cout<<endl<<sizeof(d1);
    cout<<endl<<sizeof(d2);
-   cout<<endl<<sizeof(s_i);
-   cout<<endl<<sizeof(r_i);
-   cout<<endl<<sizeof(e_f);
+   cout<<endl<<sizeof(e1);
+   cout<<endl<<sizeof(e2);
+   cout<<endl<<sizeof(e3);
     return 0;
 }

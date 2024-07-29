@@ -1,26 +1,11 @@
 # 1. EXPERIMENT 1
 ## Aim:
-To demonstrate the basic structure of a C++ program and the syntax for outputting text to the console.
+To demonstrate the basic structure of a C++ program and the syntax for outputting text to the console. To perform basic arithmetic operations and number classifications by calculating the sum, average, and determining whether numbers are even or odd.
 
 ## Theory:
+
+### Hello World:
 The "Hello, World!" program is a classic first exercise for learning any programming language. It showcases the essential syntax and structure of a C++ program. In C++, the #include <iostream> directive is used to include the standard input-output stream library, which allows the program to use std::cout for outputting text to the console. The main function is the entry point of every C++ program. Inside the main function, std::cout << "Hello, World!"; sends the string "Hello, World!" to the standard output (usually the console), followed by std::endl which ends the line. This program introduces basic concepts such as headers, namespaces, the main function, and output statements.
-
-## Apparatus: 
-VS Code, Github
-
-## Conclusion:
-The "Hello, World!" program serves as an introductory exercise for learning the fundamental syntax and structure of C++. It provides a straightforward example of how to output text to the console and is a foundational step for understanding more complex programming concepts.
-
-
-
-
-
-# 2. EXPERIMENT 2
-## Aim:
-To perform basic arithmetic operations and number classifications by calculating the sum, average, and determining whether numbers are even or odd.
-
-## Theory:
-This program covers several foundational concepts in C++:
 
 ### Arithmetic Operations:
 Basic arithmetic operations include addition, subtraction, multiplication, and division. These operations are performed using operators like +, -, *, and /. The program calculates the sum and average of a series of numbers, demonstrating how to perform and combine arithmetic operations.
@@ -31,11 +16,59 @@ Conditional operators are used to make decisions in the program. For instance, t
 ### Input/Output Operations:
 The program uses std::cin to take input from the user and std::cout to display output. This interaction is essential for creating dynamic programs that can handle user-provided data.
 
+## Apparatus: 
+VS Code, Github
+
+## Conclusion:
+The "Hello, World!" program serves as an introductory exercise for learning the fundamental syntax and structure of C++. It provides a straightforward example of how to output text to the console and is a foundational step for understanding more complex programming concepts.The program provides practical experience with fundamental C++ concepts, including arithmetic operations and conditional logic. By calculating and classifying numbers, users gain insight into basic programming techniques and how to handle user input effectively. This exercise helps in understanding how to perform and manage basic computations and decision-making in C++.
+
+
+
+
+
+# 2. EXPERIMENT 2
+
+## Aim:
+To demonstrate and illustrate the sizes of various fundamental data types in C++ using the sizeof operator. This file provides insights into the memory allocation for different data types on the target platform.
+
+## Theory:
+In C++, the sizeof operator is used to determine the size (in bytes) of a data type or object. Understanding the size of different data types is crucial for memory management, optimization, and ensuring portability of code across different platforms. Here are some common data types and their typical sizes:
+
+### char:
+Represents a single character. Typically occupies 1 byte of memory.
+
+### short:
+A short integer type. Usually occupies 2 bytes of memory.
+
+### int:
+A standard integer type. The size can vary, but it commonly occupies 4 bytes on many platforms.
+
+### long:
+A long integer type. On many systems, it occupies 4 bytes, but it can be 8 bytes on some platforms.
+
+### long long:
+A long long integer type. Typically occupies 8 bytes of memory.
+
+### float:
+A single-precision floating-point type. Usually occupies 4 bytes of memory.
+
+### double:
+A double-precision floating-point type. Typically occupies 8 bytes of memory.
+
+### long double:
+An extended-precision floating-point type. Its size can vary, but it is often 8, 12, or 16 bytes.
+
+### bool:
+Represents a Boolean value (true or false). Usually occupies 1 byte, though the exact size may vary based on the compiler.
+
+The sizes of these data types can differ depending on the compiler and the architecture of the system. This file includes code that prints the size of each data type using sizeof, allowing users to see the actual sizes on their specific platform.
+
 ## Apparatus:
 VS Code, Github
 
 ## Conclusion:
-The program provides practical experience with fundamental C++ concepts, including arithmetic operations and conditional logic. By calculating and classifying numbers, users gain insight into basic programming techniques and how to handle user input effectively. This exercise helps in understanding how to perform and manage basic computations and decision-making in C++.
+The data_type_sizes.cpp file provides a practical demonstration of how to use the sizeof operator to determine the size of various fundamental data types in C++. Understanding the sizes of these data types helps developers make informed decisions about memory usage and optimization in their programs. Additionally, it provides a valuable reference for ensuring code portability and understanding the effects of different compilers and platforms on data type sizes.
+
 
 
 

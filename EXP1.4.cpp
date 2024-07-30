@@ -7,7 +7,7 @@ int year;
 cout<<endl<<"Enter the year";
 cin>>year;
 if (year%400==0 and year%100!=0 or year%4==0){
-Cout<<"LEAP year";
+cout<<"LEAP year";
 }
 else{
 cout<<"Non leap year";

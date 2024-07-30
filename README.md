@@ -76,7 +76,7 @@ cout<<endl<<"odd"; <br />
 } <br /> 
 return 0; <br /> 
 } <br /> 
-
+![Screenshot 2024-07-30 094451](https://github.com/user-attachments/assets/dce3eb9a-4ce2-46a9-bad9-35b0a49f39c8)
 ### Leap year:
 #include<iostream> <br /> 
 //Yaman Hasan Ansari PRN: 23070123155 <br /> 

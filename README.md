@@ -302,7 +302,7 @@ int main() {
 ![Screenshot 2024-07-30 104208](https://github.com/user-attachments/assets/723cba7e-1d94-412d-ac97-d71e6822ae03)
 
 ## Conclusion:
-This program provides a comprehensive overview of how different types of operators are used in C++. Understanding these operators is crucial for performing various operations, manipulating data, and implementing logic in C++ programs. This file serves as a practical guide for beginners to get familiar with operators and their applications in programming.
+This program provides a overview of how different types of operators are used in C++. Understanding these operators is important for performing various operations, manipulating data, and implementing logic in C++ programs. This program serves as a practical guide for beginners to get familiar with operators and their applications in C++.
 
 
 

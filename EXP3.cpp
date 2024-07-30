@@ -9,35 +9,35 @@ int main() {
     int a = 10;
     int b = 5;
     
-    std::cout << "Arithmetic Operators:" << std::endl;
-    std::cout << "a + b = " << a + b << std::endl;
-    std::cout << "a - b = " << a - b << std::endl;
-    std::cout << "a * b = " << a * b << std::endl;
-    std::cout << "a / b = " << a / b << std::endl;
-    std::cout << "a % b = " << a % b << std::endl;
+    cout<< "Arithmetic Operators:" <<endl;
+    cout<< "a + b = " << a + b <<endl;
+    cout<< "a - b = " << a - b <<endl;
+    cout<< "a * b = " << a * b <<endl;
+    cout<< "a / b = " << a / b <<endl;
+    cout<< "a % b = " << a % b <<endl;
 
     // Assignment Operators
     int c = a;
     c += b;
-    std::cout << "Assignment Operators:" << std::endl;
-    std::cout << "c after c += b: " << c << std::endl;
+    cout<< "Assignment Operators:" <<endl;
+    cout<< "c after c += b: " << c <<endl;
     c -= b;
-    std::cout << "c after c -= b: " << c << std::endl;
+    cout<< "c after c -= b: " << c <<endl;
     c *= b;
-    std::cout << "c after c *= b: " << c << std::endl;
+    cout<< "c after c *= b: " << c <<endl;
     c /= b;
-    std::cout << "c after c /= b: " << c << std::endl;
+    cout<< "c after c /= b: " << c <<endl;
     c %= b;
-    std::cout << "c after c %= b: " << c << std::endl;
+    cout<< "c after c %= b: " << c <<endl;
 
     // Comparison Operators
-    std::cout << "Comparison Operators:" << std::endl;
-    std::cout << "a == b: " << (a == b) << std::endl;
-    std::cout << "a != b: " << (a != b) << std::endl;
-    std::cout << "a > b: " << (a > b) << std::endl;
-    std::cout << "a < b: " << (a < b) << std::endl;
-    std::cout << "a >= b: " << (a >= b) << std::endl;
-    std::cout << "a <= b: " << (a <= b) << std::endl;    
+    cout<< "Comparison Operators:" <<endl;
+    cout<< "a == b: " << (a == b) <<endl;
+    cout<< "a != b: " << (a != b) <<endl;
+    cout<< "a > b: " << (a > b) <<endl;
+    cout<< "a < b: " << (a < b) <<endl;
+    cout<< "a >= b: " << (a >= b) <<endl;
+    cout<< "a <= b: " << (a <= b) <<endl;    
 
     return 0;
 }

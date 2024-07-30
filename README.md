@@ -1,23 +1,97 @@
 # 1. EXPERIMENT 1
 ## Aim:
-To demonstrate the basic structure of a C++ program and the syntax for outputting text to the console. To perform basic arithmetic operations and number classifications by calculating the sum, average, and determining whether numbers are even or odd.
+1) To write a simple "Hello World" program using C++
+2) To write a program that gives the sum and average of two numbers using C++
+3) To write a program that shows weather a number is even or odd using C++
+4) To write a program that shows weather a given year is a leap year or not.
 
-## Theory:
-
-### Hello World:
-The "Hello, World!" program is a classic first exercise for learning any programming language. It showcases the essential syntax and structure of a C++ program. In C++, the #include <iostream> directive is used to include the standard input-output stream library, which allows the program to use std::cout for outputting text to the console. The main function is the entry point of every C++ program. Inside the main function, std::cout << "Hello, World!"; sends the string "Hello, World!" to the standard output (usually the console), followed by std::endl which ends the line. This program introduces basic concepts such as headers, namespaces, the main function, and output statements.
-
-### Arithmetic Operations:
-Basic arithmetic operations include addition, subtraction, multiplication, and division. These operations are performed using operators like +, -, *, and /. The program calculates the sum and average of a series of numbers, demonstrating how to perform and combine arithmetic operations.
-
-### Conditional Statements:
-Conditional operators are used to make decisions in the program. For instance, the modulus operator % is used to determine if a number is even or odd. Conditional statements such as if and else help in branching the program flow based on whether the condition is true or false.
-
-### Input/Output Operations:
-The program uses std::cin to take input from the user and std::cout to display output. This interaction is essential for creating dynamic programs that can handle user-provided data.
 
 ## Apparatus: 
 VS Code, Github
+
+
+## Theory:
+"Hello World" and other beginner programs are used to understand the basic syntax of C++ and get used to its standard library. These programs help the programer understand the basic input/output operations, arithematic operations and conditional statements. These programs are essential as they help us understand the basic datatypes,variables and operators that are used in C++.
+
+
+## Explantion:
+
+### Hello World:
+The "Hello World" program is the most basic program written in any programming language by a beginner programmer in order to understand the basic syntax of the programming language. Using this program helps the programmer understand how the basic input/output and print statements work in the given language in this case C++. The line "using namespace std;" at the start of any C++ program is its standard library. It contains all the common funcionalities such as input,output and algorithms. This program introduces basic concepts such as headers, namespaces, the main function, and output statements.
+
+### Sum and Average of two numbers:
+This program makes the use of basic arithematic operations in C++ such as + for addition and / for division. This is the same for most programming languages.In this program "cin>>" is used to take input from the user and "cout<<" is used for the output. The command "endl<<" is used to end the line.
+
+### Even/Odd:
+Conditional operators are used in this program to display weather a number is even or odd. The particular conditional statement used in this program is the if else statement. The program also makes use of the %(modulus) operator to find the remainder and determine if the number is even or odd.
+
+### Leap year:
+This program takes a user inputed year and determines weather it is a leap year or not. To do this we make use of logical operators such as &&(And) and ||(Or). The remaining syntax is similar to other basic programs prevoiusly performed.  
+
+## Code:
+
+### Hello World:
+#include<iostream>
+// Yaman Hasan Ansari PRN: 23070123155
+using namespace std;
+int main()
+{
+cout<<"Hello World";
+return 0;
+}
+
+### Sum and Average of two numbers:
+#include<iostream>
+//Yaman Hasan Ansari PRN:23070123155
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"Enter a and b"<<endl;
+cin>>a;
+cin>>b;
+int sum1 = a+b;
+cout<<"The sum of a and b is"<<sum1;
+int avg = (a+b)/2;
+cout<<endl<< "The average of a and b is:"<<avg;
+return 0;
+}
+
+### Even/Odd:
+#include<iostream>
+// Yaman Hasan Ansari PRN: 23070123155
+using namespace std:
+int main()
+{
+int n;
+cout<<"Enter n"<<endl; 
+cin>>n;
+if (n%2==0){
+cout<<endl<<"even";
+}
+else{
+cout<<endl<<"odd";
+}
+return 0;
+}
+
+### Leap year:
+#include<iostream>
+//Yaman Hasan Ansari PRN: 23070123155
+using namespace std;
+int main()
+{
+int year;
+cout<<endl<<"Enter the year";
+cin>>year;
+if (year%400==0 and year%100!=0 or year%4==0){
+Cout<<"LEAP year";
+}
+else{
+cout<<"Non leap year";
+}
+return 0;
+}
 
 ## Conclusion:
 The "Hello, World!" program serves as an introductory exercise for learning the fundamental syntax and structure of C++. It provides a straightforward example of how to output text to the console and is a foundational step for understanding more complex programming concepts.The program provides practical experience with fundamental C++ concepts, including arithmetic operations and conditional logic. By calculating and classifying numbers, users gain insight into basic programming techniques and how to handle user input effectively. This exercise helps in understanding how to perform and manage basic computations and decision-making in C++.

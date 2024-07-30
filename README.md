@@ -49,7 +49,7 @@ return 0;
 
 ### Sum and Average of two numbers:
 ```
-#include< iostream > 
+#include<iostream> 
 //Yaman Hasan Ansari PRN:23070123155 
 using namespace std; 
 int main() 
@@ -70,7 +70,7 @@ return 0;
 
 ### Even/Odd:
 ```
-#include< iostream >  
+#include<iostream>  
 // Yaman Hasan Ansari PRN: 23070123155  
 using namespace std:  
 int main()  
@@ -173,7 +173,7 @@ In this program we input values in various different datatypes such as int, shor
 
 ### Size of various data types:
 ```
-#include< iostream > 
+#include<iostream> 
 //Yaman Hasan Ansari 
 // PRN: 23070123155 
 using namespace std; 

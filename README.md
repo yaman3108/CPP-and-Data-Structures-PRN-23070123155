@@ -1,4 +1,7 @@
 # 1. EXPERIMENT 1
+
+
+
 ## Aim:
 1) To write a simple "Hello World" program using C++
 2) To write a program that gives the sum and average of two numbers using C++
@@ -14,7 +17,7 @@ VS Code, Github
 "Hello World" and other beginner programs are used to understand the basic syntax of C++ and get used to its standard library. These programs help the programer understand the basic input/output operations, arithematic operations and conditional statements. These programs are essential as they help us understand the basic datatypes,variables and operators that are used in C++.
 
 
-## Explantion:
+## Explanation:
 
 ### Hello World:
 The "Hello World" program is the most basic program written in any programming language by a beginner programmer in order to understand the basic syntax of the programming language. Using this program helps the programmer understand how the basic input/output and print statements work in the given language in this case C++. The line "using namespace std;" at the start of any C++ program is its standard library. It contains all the common funcionalities such as input,output and algorithms. This program introduces basic concepts such as headers, namespaces, the main function, and output statements.
@@ -107,7 +110,7 @@ return 0; <br />
 
 
 ## Conclusion:
-The "Hello, World!" program serves as an introductory exercise for learning the fundamental syntax and structure of C++. It provides a straightforward example of how to output text to the console and is a foundational step for understanding more complex programming concepts.The program provides practical experience with fundamental C++ concepts, including arithmetic operations and conditional logic. By calculating and classifying numbers, users gain insight into basic programming techniques and how to handle user input effectively. This exercise helps in understanding how to perform and manage basic computations and decision-making in C++.
+These simple programs are used by us as introductory excersies to learn the basic structure and syntax of C++. We learnt how to use the input/output commands. Arithematic operators, logical operators and conditional statements in this experiment. 
 
 
 
@@ -115,43 +118,95 @@ The "Hello, World!" program serves as an introductory exercise for learning the 
 
 # 2. EXPERIMENT 2
 
+
+
 ## Aim:
-To demonstrate and illustrate the sizes of various fundamental data types in C++ using the sizeof operator. This file provides insights into the memory allocation for different data types on the target platform.
+To use the sizeof operator to display the sizes of fundamental data types in C++. This helps us gain further knowledge about the memory allocation for different data types in C++.
 
-## Theory:
-In C++, the sizeof operator is used to determine the size (in bytes) of a data type or object. Understanding the size of different data types is crucial for memory management, optimization, and ensuring portability of code across different platforms. Here are some common data types and their typical sizes:
-
-### char:
-Represents a single character. Typically occupies 1 byte of memory.
-
-### short:
-A short integer type. Usually occupies 2 bytes of memory.
-
-### int:
-A standard integer type. The size can vary, but it commonly occupies 4 bytes on many platforms.
-
-### long:
-A long integer type. On many systems, it occupies 4 bytes, but it can be 8 bytes on some platforms.
-
-### long long:
-A long long integer type. Typically occupies 8 bytes of memory.
-
-### float:
-A single-precision floating-point type. Usually occupies 4 bytes of memory.
-
-### double:
-A double-precision floating-point type. Typically occupies 8 bytes of memory.
-
-### long double:
-An extended-precision floating-point type. Its size can vary, but it is often 8, 12, or 16 bytes.
-
-### bool:
-Represents a Boolean value (true or false). Usually occupies 1 byte, though the exact size may vary based on the compiler.
-
-The sizes of these data types can differ depending on the compiler and the architecture of the system. This file includes code that prints the size of each data type using sizeof, allowing users to see the actual sizes on their specific platform.
 
 ## Apparatus:
 VS Code, Github
+
+
+## Theory:
+The sizeof operator is used to determine the size of a data types in bytes. Understanding this is important for optimizing the program with better memory management. Here are some common data types of C++ and their sizes:
+
+### char:
+Represents a single character and occupies 1 byte of memory.
+
+### int:
+A standard integer type the size of which can vary but it mostly occupies 4 bytes of memory.
+
+### short int:
+A short integer type occupies 2 bytes of memory.
+
+### long:
+A long integer type can occupy 4 or 8 bytes of memory.
+
+### long long:
+A long long integer type occupies 8 bytes of memory.
+
+### float:
+A float type occupies 4 bytes of memory.
+
+### double:
+A double type occupies 8 bytes of memory.
+
+### long double:
+A long double type can vary in size, it can occupy 8,12 or 16 bytes of memory.
+
+### bool:
+Represents a Boolean value which is either true or false, it occupies 1 byte. <br />
+
+The sizes of these data types can differ depending on the compiler. This experiment shows code that prints the size of each data type using sizeof operator, allowing users to see the actual sizes of the various data types.
+
+## Explanation:
+
+### sizeof operator:
+In this program we input values in various different datatypes such as int, short int, unsigned short int, long long int, char, wchar_t, float, double, long double, unsigned long long int. We then use the sizeof operator to print the ammount of memory that each data type occupies. We also use input values into different storage types such as static int, register int and extern double.
+
+## Code:
+
+### Size of various data types:
+#include< iostream > <br />
+//Yaman Hasan Ansari <br />
+// PRN: 23070123155 <br />
+using namespace std; <br />
+int main() <br />
+{ <br />
+   int a = 10; <br />
+   short int a1 = 15; <br />
+   unsigned short  int a2 = 20; <br />
+   long long int a3; <br />
+   char b = 'B'; <br />
+   wchar_t b1; <br />
+   float c = 3.14; <br />
+   double d; <br />
+   long double d1; <br />
+   unsigned long long int d2; <br />
+
+
+  static int e1; <br />
+  register int e2 = 100; <br />
+  extern float e3 ; <br />
+  
+   cout<<endl<<sizeof(a); <br />
+   cout<<endl<<sizeof(a1); <br />
+   cout<<endl<<sizeof(a2); <br />
+   cout<<endl<<sizeof(a3); <br />
+   cout<<endl<<sizeof(b); <br />
+   cout<<endl<<sizeof(b1); <br />
+   cout<<endl<<sizeof(c); <br />
+   cout<<endl<<sizeof(d); <br />
+   cout<<endl<<sizeof(d1); <br />
+   cout<<endl<<sizeof(d2); <br />
+   cout<<endl<<sizeof(e1); <br />
+   cout<<endl<<sizeof(e2); <br />
+   cout<<endl<<sizeof(e3); <br />
+    return 0; <br />
+} <br />
+
+### Output:
 
 ## Conclusion:
 The data_type_sizes.cpp file provides a practical demonstration of how to use the sizeof operator to determine the size of various fundamental data types in C++. Understanding the sizes of these data types helps developers make informed decisions about memory usage and optimization in their programs. Additionally, it provides a valuable reference for ensuring code portability and understanding the effects of different compilers and platforms on data type sizes.

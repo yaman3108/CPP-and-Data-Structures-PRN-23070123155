@@ -39,6 +39,8 @@ int main() <br />
 cout<<"Hello World"; <br />
 return 0; <br />
 } <br />
+
+### Output:
 ![Screenshot 2024-07-30 093300](https://github.com/user-attachments/assets/ff38c0c9-9f54-4790-a8b0-328d39193b8c)
 
 ### Sum and Average of two numbers:
@@ -57,6 +59,8 @@ int avg = (a+b)/2; <br />
 cout<<endl<< "The average of a and b is:"<<avg; <br />
 return 0; <br />
 } <br />
+
+### Output:
 ![Screenshot 2024-07-30 094212](https://github.com/user-attachments/assets/df7e4cf2-7650-461b-9a8e-b565264b93ad)
 
 ### Even/Odd:
@@ -76,7 +80,10 @@ cout<<endl<<"odd"; <br />
 } <br /> 
 return 0; <br /> 
 } <br /> 
+
+### Output:
 ![Screenshot 2024-07-30 094451](https://github.com/user-attachments/assets/dce3eb9a-4ce2-46a9-bad9-35b0a49f39c8)
+
 ### Leap year:
 #include<iostream> <br /> 
 //Yaman Hasan Ansari PRN: 23070123155 <br /> 
@@ -87,13 +94,17 @@ int year; <br />
 cout<<endl<<"Enter the year"; <br /> 
 cin>>year; <br /> 
 if (year%400==0 and year%100!=0 or year%4==0){ <br /> 
-Cout<<"LEAP year"; <br /> 
+cout<<"LEAP year"; <br /> 
 } <br /> 
 else{ <br /> 
 cout<<"Non leap year"; <br /> 
 } <br /> 
 return 0; <br /> 
 } <br /> 
+
+### Output:
+![Screenshot 2024-07-30 094804](https://github.com/user-attachments/assets/94038677-9b9e-478b-bcbd-ce4ccff9d8c1)
+
 
 ## Conclusion:
 The "Hello, World!" program serves as an introductory exercise for learning the fundamental syntax and structure of C++. It provides a straightforward example of how to output text to the console and is a foundational step for understanding more complex programming concepts.The program provides practical experience with fundamental C++ concepts, including arithmetic operations and conditional logic. By calculating and classifying numbers, users gain insight into basic programming techniques and how to handle user input effectively. This exercise helps in understanding how to perform and manage basic computations and decision-making in C++.

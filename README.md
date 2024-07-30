@@ -57,43 +57,43 @@ int avg = (a+b)/2; <br />
 cout<<endl<< "The average of a and b is:"<<avg; <br />
 return 0; <br />
 } <br />
-
+![Screenshot 2024-07-30 094212](https://github.com/user-attachments/assets/df7e4cf2-7650-461b-9a8e-b565264b93ad)
 
 ### Even/Odd:
-#include< iostream > 
-// Yaman Hasan Ansari PRN: 23070123155
-using namespace std:
-int main()
-{
-int n;
-cout<<"Enter n"<<endl; 
-cin>>n;
-if (n%2==0){
-cout<<endl<<"even";
-}
-else{
-cout<<endl<<"odd";
-}
-return 0;
-}
+#include< iostream > <br /> 
+// Yaman Hasan Ansari PRN: 23070123155 <br /> 
+using namespace std: <br /> 
+int main() <br /> 
+{ <br /> 
+int n; <br /> 
+cout<<"Enter n"<<endl; <br />  
+cin>>n; <br /> 
+if (n%2==0){ <br /> 
+cout<<endl<<"even"; <br /> 
+} <br /> 
+else{ <br /> 
+cout<<endl<<"odd"; <br /> 
+} <br /> 
+return 0; <br /> 
+} <br /> 
 
 ### Leap year:
-#include<iostream>
-//Yaman Hasan Ansari PRN: 23070123155
-using namespace std;
-int main()
-{
-int year;
-cout<<endl<<"Enter the year";
-cin>>year;
-if (year%400==0 and year%100!=0 or year%4==0){
-Cout<<"LEAP year";
-}
-else{
-cout<<"Non leap year";
-}
-return 0;
-}
+#include<iostream> <br /> 
+//Yaman Hasan Ansari PRN: 23070123155 <br /> 
+using namespace std; <br /> 
+int main() <br /> 
+{ <br /> 
+int year; <br /> 
+cout<<endl<<"Enter the year"; <br /> 
+cin>>year; <br /> 
+if (year%400==0 and year%100!=0 or year%4==0){ <br /> 
+Cout<<"LEAP year"; <br /> 
+} <br /> 
+else{ <br /> 
+cout<<"Non leap year"; <br /> 
+} <br /> 
+return 0; <br /> 
+} <br /> 
 
 ## Conclusion:
 The "Hello, World!" program serves as an introductory exercise for learning the fundamental syntax and structure of C++. It provides a straightforward example of how to output text to the console and is a foundational step for understanding more complex programming concepts.The program provides practical experience with fundamental C++ concepts, including arithmetic operations and conditional logic. By calculating and classifying numbers, users gain insight into basic programming techniques and how to handle user input effectively. This exercise helps in understanding how to perform and manage basic computations and decision-making in C++.

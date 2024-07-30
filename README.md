@@ -319,6 +319,10 @@ This program provides a overview of how different types of operators are used in
 To demonstrate the use of bitwise operators in C++.
 
 
+## Apparatus:
+Vs Code, Github
+
+
 ## Theory:
 Bitwise operators in C++ perform operations in the binary form of integers. These operators can be useful in optimization and situations where performance and memory usage are critical. Here's an overview of common bitwise operators:
 
@@ -375,7 +379,8 @@ int main()
 ```
 
 ## Output:
+![Screenshot 2024-07-30 142241](https://github.com/user-attachments/assets/63b966cf-5d42-40aa-bb87-975a901e47a3)
+
 
 ## Conclusion:
-The bitwise_operators.cpp file provides a clear understanding of how bitwise operators can be used for low-level data manipulation in C++. By exploring these operators, users gain insight into performing efficient bitwise operations such as setting, clearing, toggling, and testing specific bits. Bitwise operations are crucial for performance optimization and are commonly used in scenarios involving hardware control, cryptography, and data compression. Mastering these operators enables developers to write more efficient and precise code, particularly in systems programming and performance-critical applications.
-
+This program helps us understand how bitwise operators can be used in C++. These bitwise operations can be used for performance optimization as they pack multiple values in a single variable making the program more memory efficient.

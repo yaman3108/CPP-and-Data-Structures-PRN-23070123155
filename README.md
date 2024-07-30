@@ -252,6 +252,8 @@ These include ==(equal to), !=(not equal to), >(greater than), <(less than), >=(
 In this program we use the various different types of operators such as Arithematic operators, Assignment operators and comparision operators in order to learn and understand thier syntax and working in C++. We then print thier outputs using the "cout<<" command.
 
 ## Code:
+
+### Use of arithematic,assignment and comparision operators:
 ```
 #include<iostream> 
 using namespace std; 
@@ -301,37 +303,78 @@ int main() {
 ### Output:
 ![Screenshot 2024-07-30 104208](https://github.com/user-attachments/assets/723cba7e-1d94-412d-ac97-d71e6822ae03)
 
+
 ## Conclusion:
-This program provides a overview of how different types of operators are used in C++. Understanding these operators is important for performing various operations, manipulating data, and implementing logic in C++ programs. This program serves as a practical guide for beginners to get familiar with operators and their applications in C++.
+This program provides a overview of how different types of operators are used in C++. Understanding these operators is important for performing various operations and implementing logic in C++ programs. This program serves as a practical guide for beginners to get familiar with operators and their applications in C++.
 
 
 
 
 
 # 4. EXPERIMENT 4
+
+
+
 ## Aim:
-To demonstrate the use and functionality of bitwise operators in C++. This file covers the fundamental bitwise operators, including AND, OR, XOR, NOT, as well as left and right shift operators. The goal is to illustrate how these operators manipulate individual bits within integer data types and to provide practical examples of their usage in bitwise operations.
+To demonstrate the use of bitwise operators in C++.
+
 
 ## Theory:
-Bitwise operators in C++ perform operations on the binary representations of integers. These operators manipulate individual bits of data, which can be particularly useful in low-level programming, optimization, and situations where performance and memory usage are critical. Here's an overview of common bitwise operators:
+Bitwise operators in C++ perform operations in the binary form of integers. These operators can be useful in optimization and situations where performance and memory usage are critical. Here's an overview of common bitwise operators:
 
 ### Bitwise AND (&):
-Performs a bitwise AND operation between two integers. Each bit of the result is 1 if the corresponding bits of both operands are 1; otherwise, the result bit is 0.
+Performs a bitwise AND operation between two integers. If both the bits are 1 then the result of the operation is 1 otherwise the result bit is 0.
 
 ### Bitwise OR (|):
-Performs a bitwise OR operation. Each bit of the result is 1 if at least one of the corresponding bits of the operands is 1.
+Performs a bitwise OR operation.If atleast one of the bits is 1 then the result of the operation is 1.
 
 ### Bitwise XOR (^):
-Performs a bitwise XOR (exclusive OR) operation. Each bit of the result is 1 if the corresponding bits of the operands are different; otherwise, the result bit is 0.
+Performs a bitwise XOR (exclusive OR) operation. If both the bits are different the result of the operation is 1 otherwise the result bit is 0.
 
 ### Bitwise NOT (~):
-Performs a bitwise NOT operation, also known as bitwise complement. It inverts all the bits of the operand. In other words, each bit of the result is the opposite of the corresponding bit in the operand.
+Performs a bitwise NOT operation, also known as bitwise complement. It inverts all the bits. The result of the bit is complimentary to itself, for example if a bit is 1 its result bit is 0.
 
 ### Left Shift (<<):
 Shifts the bits of the left operand to the left by the number of positions specified by the right operand. New bits on the right are set to 0.
 
 ### Right Shift (>>):
 Shifts the bits of the left operand to the right by the number of positions specified by the right operand. The behavior of the leftmost bits depends on whether the type is signed or unsigned.
+
+
+## Explanation: 
+This program covers the basic bitwise operators such as AND, OR, XOR, NOT, Left shift, Right shift. We give two inputs and demonstrate how these bitwise operations function and print thier result.
+
+
+## Code:
+```
+#include<iostream>
+using namespace std;
+
+//Name: Yaman Hasan Ansari PRN:23070123155
+
+int main()
+{
+    int a = 5;
+    int b = 3;
+    int AND = a&b;
+    int OR = a|b;
+    int XOR = a^b;
+    int NOT = ~a;
+    int LEFT_SHIFT = a<<b;
+    int RIGHT_SHIFT = a>>b;
+    
+    cout<<"AND:"<<AND<<endl;
+    cout<<"OR:"<<OR<<endl;
+    cout<<"XOR:"<<XOR<<endl;
+    cout<<"NOT:"<<NOT<<endl;
+    cout<<"LEFT_SHIFT:"<<LEFT_SHIFT<<endl;
+    cout<<"RIGHT_SHIFT:"<<RIGHT_SHIFT<<endl;
+
+  return 0;
+}
+```
+
+## Output:
 
 ## Conclusion:
 The bitwise_operators.cpp file provides a clear understanding of how bitwise operators can be used for low-level data manipulation in C++. By exploring these operators, users gain insight into performing efficient bitwise operations such as setting, clearing, toggling, and testing specific bits. Bitwise operations are crucial for performance optimization and are commonly used in scenarios involving hardware control, cryptography, and data compression. Mastering these operators enables developers to write more efficient and precise code, particularly in systems programming and performance-critical applications.

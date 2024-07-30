@@ -31,34 +31,36 @@ This program takes a user inputed year and determines weather it is a leap year 
 ## Code:
 
 ### Hello World:
-#include<iostream>
-// Yaman Hasan Ansari PRN: 23070123155
-using namespace std;
-int main()
-{
-cout<<"Hello World";
-return 0;
-}
+#include< iostream > <br />
+// Yaman Hasan Ansari PRN: 23070123155 <br />
+using namespace std; <br />
+int main() <br />
+{ <br />
+cout<<"Hello World"; <br />
+return 0; <br />
+} <br />
+![Screenshot 2024-07-30 093300](https://github.com/user-attachments/assets/ff38c0c9-9f54-4790-a8b0-328d39193b8c)
 
 ### Sum and Average of two numbers:
-#include<iostream>
-//Yaman Hasan Ansari PRN:23070123155
-using namespace std;
-int main()
-{
-int a,b;
-cout<<"Enter a and b"<<endl;
-cin>>a;
-cin>>b;
-int sum1 = a+b;
-cout<<"The sum of a and b is"<<sum1;
-int avg = (a+b)/2;
-cout<<endl<< "The average of a and b is:"<<avg;
-return 0;
-}
+#include< iostream > <br />
+//Yaman Hasan Ansari PRN:23070123155 <br />
+using namespace std; <br />
+int main() <br />
+{ <br />
+int a,b; <br />
+cout<<"Enter a and b"<<endl; <br />
+cin>>a; <br />
+cin>>b; <br />
+int sum1 = a+b; <br />
+cout<<"The sum of a and b is"<<sum1; <br />
+int avg = (a+b)/2; <br />
+cout<<endl<< "The average of a and b is:"<<avg; <br />
+return 0; <br />
+} <br />
+
 
 ### Even/Odd:
-#include<iostream>
+#include< iostream > 
 // Yaman Hasan Ansari PRN: 23070123155
 using namespace std:
 int main()

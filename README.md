@@ -48,7 +48,7 @@ return 0;
 ![Screenshot 2024-07-30 093300](https://github.com/user-attachments/assets/ff38c0c9-9f54-4790-a8b0-328d39193b8c)
 
 ### Sum and Average of two numbers:
-'''
+```
 #include< iostream > 
 //Yaman Hasan Ansari PRN:23070123155 
 using namespace std; 
@@ -64,12 +64,12 @@ int avg = (a+b)/2;
 cout<<endl<< "The average of a and b is:"<<avg; 
 return 0; 
 } 
-'''
+```
 ### Output:
 ![Screenshot 2024-07-30 094212](https://github.com/user-attachments/assets/df7e4cf2-7650-461b-9a8e-b565264b93ad)
 
 ### Even/Odd:
-'''
+```
 #include< iostream >  
 // Yaman Hasan Ansari PRN: 23070123155  
 using namespace std:  
@@ -86,12 +86,12 @@ cout<<endl<<"odd";
 }  
 return 0;  
 }  
-'''
+```
 ### Output:
 ![Screenshot 2024-07-30 094451](https://github.com/user-attachments/assets/dce3eb9a-4ce2-46a9-bad9-35b0a49f39c8)
 
 ### Leap year:
-'''
+```
 #include<iostream>  
 //Yaman Hasan Ansari PRN: 23070123155  
 using namespace std;  
@@ -108,7 +108,7 @@ cout<<"Non leap year";
 }  
 return 0;  
 }  
-'''
+```
 ### Output:
 ![Screenshot 2024-07-30 094804](https://github.com/user-attachments/assets/94038677-9b9e-478b-bcbd-ce4ccff9d8c1)
 
@@ -172,7 +172,7 @@ In this program we input values in various different datatypes such as int, shor
 ## Code:
 
 ### Size of various data types:
-'''
+```
 #include< iostream > 
 //Yaman Hasan Ansari 
 // PRN: 23070123155 
@@ -210,7 +210,7 @@ int main()
    cout<<endl<<sizeof(e3); 
     return 0; 
 } 
-'''
+```
 ### Output:
 ![Screenshot 2024-07-30 101642](https://github.com/user-attachments/assets/16b3faed-a6b2-407d-9e64-995822d63af1)
 
@@ -252,7 +252,7 @@ These include ==(equal to), !=(not equal to), >(greater than), <(less than), >=(
 In this program we use the various different types of operators such as Arithematic operators, Assignment operators and comparision operators in order to learn and understand thier syntax and working in C++. We then print thier outputs using the "cout<<" command.
 
 ## Code:
-'''
+```
 #include<iostream> 
 using namespace std; 
 
@@ -296,7 +296,7 @@ int main() {
 
     return 0; 
 } 
-'''
+```
 
 ### Output:
 ![Screenshot 2024-07-30 104208](https://github.com/user-attachments/assets/723cba7e-1d94-412d-ac97-d71e6822ae03)

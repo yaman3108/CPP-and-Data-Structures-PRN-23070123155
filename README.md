@@ -158,7 +158,7 @@ A long double type can vary in size, it can occupy 8,12 or 16 bytes of memory.
 ### bool:
 Represents a Boolean value which is either true or false, it occupies 1 byte. <br />
 
-The sizes of these data types can differ depending on the compiler. This experiment shows code that prints the size of each data type using sizeof operator, allowing users to see the actual sizes of the various data types.
+The sizes of these data types can differ depending on the compiler. This program shows code that prints the size of each data type using sizeof operator, allowing users to see the actual sizes of the various data types.
 
 ## Explanation:
 
@@ -207,36 +207,91 @@ int main() <br />
 } <br />
 
 ### Output:
+![Screenshot 2024-07-30 101642](https://github.com/user-attachments/assets/16b3faed-a6b2-407d-9e64-995822d63af1)
+
 
 ## Conclusion:
-The data_type_sizes.cpp file provides a practical demonstration of how to use the sizeof operator to determine the size of various fundamental data types in C++. Understanding the sizes of these data types helps developers make informed decisions about memory usage and optimization in their programs. Additionally, it provides a valuable reference for ensuring code portability and understanding the effects of different compilers and platforms on data type sizes.
-
+This program demonstrates the use of sizeof operator to help determine the size of various data types in C++. Understanding the sizes of these data types helps us to make better memory management decisions and optimizing our programs.
 
 
 
 
 
 # 3. EXPERIMENT 3.
+
+
+
 ## Aim:
-To illustrate the use of arithmetic operators, assignment operators, and conditional operators in C++.
+To demonstrate the use of arithmetic operators, assignment operators, and comparison operators in C++.
+
+## Apparatus:
+VS Code,Github
+
 
 ## Theory:
 This program demonstrates the use of different types of operators in C++:
 
 ### Arithmetic Operators:
-These include + (addition), - (subtraction), * (multiplication), / (division), and % (modulus). They are used to perform basic mathematical operations on numeric data types.
+These include +(addition), -(subtraction), *(multiplication), /(division), and % (modulus). They are used to perform basic mathematical operations in C++.
 
 ### Assignment Operators:
-These operators are used to assign values to variables. The basic assignment operator = assigns a value to a variable, while compound assignment operators like +=, -=, *=, and /= combine arithmetic operations with assignment.
+These operators are used to assign values to variables. The basic assignment operator = assigns a value to a variable, while operators like +=, -=, *=, and /= combine  the particular arithmetic operation with assignment.
 
-### Conditional (Relational) Operators:
-These include == (equality), != (inequality), > (greater than), < (less than), >= (greater than or equal to), and <= (less than or equal to). They are used to compare values and produce Boolean results (true or false).
+### Comparison Operators:
+These include ==(equal to), !=(not equal to), >(greater than), <(less than), >=(greater than or equal to), and <=(less than or equal to). They are used to compare values and give the result as a boolean value either true or false.
 
-### Logical Operators:
-These operators are used to combine multiple Boolean expressions. They include && (logical AND), || (logical OR), and ! (logical NOT). Logical operators are crucial for controlling the flow of the program based on multiple conditions.
 
-## Apparatus:
-VS Code,Github
+## Explanation:
+
+### Arithematic,assignment,comparision operators:
+In this program we use the various different types of operators such as Arithematic operators, Assignment operators and comparision operators in order to learn and understand thier syntax and working in C++. We then print thier outputs using the "cout<<" command.
+
+## Code:
+#include < iostream > <br />
+using namespace std; <br />
+
+//Name: Yaman Hasan Ansari <br />
+//PRN:23070123155 <br />
+
+int main() { <br />
+    // Arithmetic Operators <br />
+    int a = 10; <br />
+    int b = 5; <br />
+    
+    cout<< "Arithmetic Operators:" <<endl; <br />
+    cout<< "a + b = " << a + b <<endl; <br />
+    cout<< "a - b = " << a - b <<endl; <br />
+    cout<< "a * b = " << a * b <<endl; <br />
+    cout<< "a / b = " << a / b <<endl; <br />
+    cout<< "a % b = " << a % b <<endl; <br />
+
+    // Assignment Operators <br />
+    int c = a; <br />
+    c += b; <br />
+    cout<< "Assignment Operators:" <<endl; <br />
+    cout<< "c after c += b: " << c <<endl; <br />
+    c -= b; <br />
+    cout<< "c after c -= b: " << c <<endl; <br />
+    c *= b; <br />
+    cout<< "c after c *= b: " << c <<endl; <br />
+    c /= b; <br />
+    cout<< "c after c /= b: " << c <<endl; <br />
+    c %= b; <br />
+    cout<< "c after c %= b: " << c <<endl; <br />
+
+    // Comparison Operators <br />
+    cout<< "Comparison Operators:" <<endl; <br />
+    cout<< "a == b: " << (a == b) <<endl; <br />
+    cout<< "a != b: " << (a != b) <<endl; <br />
+    cout<< "a > b: " << (a > b) <<endl; <br />
+    cout<< "a < b: " << (a < b) <<endl; <br />
+    cout<< "a >= b: " << (a >= b) <<endl; <br />
+    cout<< "a <= b: " << (a <= b) <<endl; <br />
+
+    return 0; <br />
+} <br />
+
+### Output:
 
 ## Conclusion:
 This program provides a comprehensive overview of how different types of operators are used in C++. Understanding these operators is crucial for performing various operations, manipulating data, and implementing logic in C++ programs. This file serves as a practical guide for beginners to get familiar with operators and their applications in programming.
